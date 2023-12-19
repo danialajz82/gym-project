@@ -18,7 +18,44 @@ const Reasnos = () => {
         <img src={image3} alt="" />
         <img src={image4} alt="" />
       </div>
-      <div className="right-r"></div>
+      <div className="right-r">
+        <span>some reasons</span>
+        <div>
+          <span className="stroke-text">why</span>
+          <span>choose us?</span>
+        </div>
+        <div className="details-r">
+          <div>
+            <img src={tick} alt=""></img>
+            <span>over 140+ expert coachs</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>train smarter and faster thrn before</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>1 free program for new members</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>reliable partners</span>
+          </div>
+        </div>
+        <span
+          style={{
+            color: "var(--gray)",
+            fontWeight: "normal",
+          }}
+        >
+          Our partners
+        </span>
+        <div className="partners">
+          <img src={nb} alt="" />
+          <img src={adidad} alt="" />
+          <img src={nike} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
